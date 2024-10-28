@@ -86,3 +86,4 @@ class TestVarasto(unittest.TestCase):
         oikea_tuloste = "saldo = 0, vielä tilaa 10"
 
         self.assertEqual(oikea_tuloste, str(self.varasto))
+        
