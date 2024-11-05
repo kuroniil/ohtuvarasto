@@ -16,7 +16,9 @@ def main():
     print(f"Mehuvarasto: {mehua}\nOtetaan 3.14")
     mehua.ota_varastosta(3.14)
     print(f"Mehuvarasto: {mehua} \
-          \nVirhetilanteita:\nVarasto(-100.0);\n{Varasto(-100.0)} \nVarasto(100.0, -50.7)\n{Varasto(100.0, -50.7)} \nOlutvarasto: {olutta}\nolutta.lisaa_varastoon(1000.0)")
+          \nVirhetilanteita:\nVarasto(-100.0);\n{Varasto(-100.0)} \
+          \nVarasto(100.0, -50.7)\n{Varasto(100.0, -50.7)} \
+          \nOlutvarasto: {olutta}\nolutta.lisaa_varastoon(1000.0)")
 
     olutta.lisaa_varastoon(1000.0)
     print(f"Olutvarasto: {olutta} \
